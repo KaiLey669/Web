@@ -1,0 +1,23 @@
+Response headers:
+1. Connection - наличие соединения
+2. Content-Type - вид содержимого страницы
+3. Last-Modified - дата последнего изменения
+4. Server - ну собственно сервер
+5. Transfer-Encoding - что-то связанное с кодированием
+6. Etag - некий идентификатор
+7. x-xss-protection - защита от xss атак
+8. Cache-Control - управление кэшем
+9. Pragma - что-то связанное с совместимостью версий http
+10. strict-transport-security - доступ только через https
+
+Request headers:
+1. accept-language - доступные языки
+2. referer - ссылка на страницу
+3. accept-encoding - снова что-то связанное с кодирование
+4. if-modified-since - дата какого-то изменения
+5. x-origin - оригинальная ссылка
+6. sec-ch-ua-platform - ОС
+7. sec-ch-ua-platform-version - версия ОС
+8. sec-fetch-mode - режим запроса
+9. User-Agent - идентификато ОС, браузера и тд
+10. sec-fetch-dest - место назначения запроса
